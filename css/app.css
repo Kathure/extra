@@ -5,3 +5,12 @@
     border-right: 50px solid transparent;
     border-top: 100px solid red;
 }
+#circle {
+    width: 100px;
+    height: 100px;
+    background: Purple;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
