@@ -1,9 +1,24 @@
-#triangle-down {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
+header.skew {
+  background-color: #09F;
+  -webkit-transform: skew(0, 4deg);
+  -ms-transform: skew(0, 4deg);
+  transform: skew(0, 4deg);
+  padding-bottom: 1em;
+}
+header.skew h1 {
+  position: relative;
+  text-align: center;
+  background-color: #09F;
+  -webkit-transform: skew(0, -4deg);
+  -ms-transform: skew(0, -4deg);
+  transform: skew(0, -4deg);
+  padding: 1em;
+  top: -1em;
+}
+div.content {
+  padding: 1em;
+  padding-top: 5em;
+  color: #111;
 }
 #circle {
     width: 100px;
